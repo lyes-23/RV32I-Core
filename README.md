@@ -67,6 +67,22 @@ Each core component of the processor has its dedicated testbench:
 - **Register File Testbench**: Checks read and write operations in the register file.
 - **IMEM and DMEM Testbenches**: Simulate memory operations for instruction and data access.
 
+## Fibonacci Numerical Suite
+The Fibonacci numerical suite is a classic algorithm that generates Fibonacci numbers, where each number is the sum of the two preceding ones. This sequence starts with 0 and 1, and the nth Fibonacci number can be defined as:
+
+- \( F(0) = 0 \)
+- \( F(1) = 1 \)
+- \( F(n) = F(n-1) + F(n-2) \) for \( n > 1 \)
+
+The Fibonacci sequence has numerous applications in computer science, mathematics, and nature. In this project, the Fibonacci algorithm is utilized to test the processor’s functionality and ensure the proper execution of instructions.
+
+### Fibonacci Testbench Simulation
+The following image illustrates the testbench designed for the Fibonacci algorithm simulation:
+
+![Fibonacci Testbench](simulation_pictures/rv32_fibbunocci_tb.png)
+
+This testbench validates the core components of the RV32I processor by executing the Fibonacci algorithm and checking the results against expected outputs.
+
 
 ## Installation and Usage
 To run the simulations:
