@@ -26,6 +26,10 @@ The RV32I processor follows a pipelined architecture that consists of several ke
 5. **Arithmetic Logic Unit (ALU)**:
    - Performs arithmetic and logical operations.
    - Supports immediate and register-based operations.
+   
+   
+### Architecture Diagram
+![RV32I Architecture](simulation_pictures/rv32i_arch.png)
 
 ## Instruction Set
 The RV32I architecture supports several types of instructions:
@@ -35,6 +39,9 @@ The RV32I architecture supports several types of instructions:
 - **B-Type**: Branch instructions (e.g., `beq`, `bne`).
 - **J-Type**: Jump instructions (e.g., `jal`).
 - **U-Type**: Upper immediate instructions (e.g., `lui`).
+
+### Instruction Opcode
+![Instruction Opcode](simulation_pictures/instruction_opcode.png)
 
 ## Simulation and Validation
 The validation of the processor components is done through a comprehensive simulation setup:
