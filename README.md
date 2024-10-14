@@ -79,7 +79,7 @@ The Fibonacci sequence has numerous applications in computer science, mathematic
 ### Fibonacci Testbench Simulation
 The following image illustrates the testbench designed for the Fibonacci algorithm simulation:
 
-![Fibonacci Testbench](simulation_pictures/rv32_fibbunocci_tb.png)
+![Fibonacci Testbench](simulation_pictures/rv32I_fibbunocci_tb.png)
 
 This testbench validates the core components of the RV32I processor by executing the Fibonacci algorithm and checking the results against expected outputs.
 
