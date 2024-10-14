@@ -1,0 +1,36 @@
+library ieee; 
+use ieee.std_logic_1164.all; 
+use ieee.numeric_std.all; 
+
+
+entity LM is 
+port(
+data : in std_logic_vector(31 downto 0);  
+res : in std_logic_vector(1 downto 0); 
+funct3: in std_logic_vector(2 dwonto 0);
+data_out: out std_logic_vector(31 downto 0) 
+); 
+end LM; 
+
+
+
+architecture behavioral of LM is 
+signal res_b,res_h: std_logic_vector(31 downto 0);
+begin 
+
+process(res_b,res_h,data,res,funct3)
+begin 
+
+
+res_h(15 downto 0) <= data(15 downto 0) when res(1)='0' else data(31 downto 16);
+res_b(7 downto 0)  <= res_h(7 downto 0) when res(0)='0' else res_h(15 downto 8);
+res_h(31 downto 16)<= x"0000"   when res_h(15) ='0' and funct3(2) = '1' else x"FFFF";
+res_b(31 downto 8 )<= x"000000" when res_b(7) ='0'  and funct3(2) = '1' else x"FFFFFF";
+
+data_out <= res_b when funct3(1 downto 0)="00"
+				res_h when funct3(1 downto 0)="01"
+				data when  funct3(1 downto 0)="00"
+				else x"00000000";
+				
+end process
+end behavioral; 

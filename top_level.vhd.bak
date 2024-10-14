@@ -1,0 +1,40 @@
+library ieee; 
+use ieee.std_logic_1164.all;
+
+
+
+entity top_level is 
+port(
+port(
+clk: in std_logic;
+
+);
+end fetop_level; 
+
+
+architecture behavioral of top_level is
+
+signal pcu_out: std_logic_vector(31 downto 0);
+signal mem_instr: std_logic_vector(31 downto 0);
+
+begin
+pcu: entity work.pc_unit 
+	port map(
+	I_clk=> clk,
+	I_en=> '1',
+	I_reset=>'0',
+	O_PC=> pcu_out
+); 
+
+imemory: entity work.instr_memory 
+	port map(
+		clk         => clk,
+		pc_addr     => pcu_out,
+		instruction	=> mem_instr
+		);
+
+decoder: entity work.decoder
+port map(
+	instr  => mem_instruction;
+	);
+		end architecture;

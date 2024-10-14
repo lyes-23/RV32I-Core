@@ -1,0 +1,457 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/simulation/modelsim
+Ealu
+Z1 w1716579550
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/alu.vhd
+Z6 FC:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/alu.vhd
+l0
+L6
+V=9OSXUzFKQMQ9U^zE9K691
+!s100 oGKG9eK>2z:6JT:3>R:6B2
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1716827147
+!i10b 1
+Z9 !s108 1716827147.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/alu.vhd|
+Z11 !s107 C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/alu.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 =9OSXUzFKQMQ9U^zE9K691
+l30
+L23
+V5YTdllM_MTMhPMR_MoZPi1
+!s100 i3BKfeg;fhb8^lVK4zdM@3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Pconstants
+R3
+R4
+Z14 w1716048119
+R0
+Z15 8C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/constants.vhd
+Z16 FC:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/constants.vhd
+l0
+L5
+VHPz?G6m;XU;C?60ZS^^Db3
+!s100 >njgA?FJRb?0UnLUbjEX92
+R7
+31
+Z17 !s110 1716827146
+!i10b 1
+Z18 !s108 1716827146.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/constants.vhd|
+Z20 !s107 C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/constants.vhd|
+!i113 1
+R12
+R13
+Bbody
+Z21 DPx4 work 9 constants 0 22 HPz?G6m;XU;C?60ZS^^Db3
+R3
+R4
+l0
+L29
+VUDH2ai4c54O_2]GfE`TO13
+!s100 f2AaG;bl8AzG4zm:jb]EC3
+R7
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Edata_memory
+Z22 w1716807602
+R2
+R3
+R4
+R0
+Z23 8C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/data_memory.vhd
+Z24 FC:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/data_memory.vhd
+l0
+L7
+V@[;_iX^PRO63QVFRZ>fH81
+!s100 6I`V3ah8B^n@nEKWKCe?Z2
+R7
+31
+R8
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/data_memory.vhd|
+Z26 !s107 C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/data_memory.vhd|
+!i113 1
+R12
+R13
+Abehav
+R2
+R3
+R4
+DEx4 work 11 data_memory 0 22 @[;_iX^PRO63QVFRZ>fH81
+l42
+L24
+V;ZPCclBCPmO45YU7XceKa3
+!s100 ]YhK]QPa_flVcX4:cfhoA1
+R7
+31
+R8
+!i10b 1
+R9
+R25
+R26
+!i113 1
+R12
+R13
+Edecoder
+Z27 w1716803029
+R3
+R4
+R0
+Z28 8C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/decoder.vhd
+Z29 FC:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/decoder.vhd
+l0
+L4
+V=D^SmbdE8c76JmF_bET8G1
+!s100 =3_7<gSOQ1j?_X:[^1NE:1
+R7
+31
+R17
+!i10b 1
+R18
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/decoder.vhd|
+Z31 !s107 C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/decoder.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R3
+R4
+DEx4 work 7 decoder 0 22 =D^SmbdE8c76JmF_bET8G1
+l35
+L23
+VYnYG5_P=n^4bY:5i_f?e91
+!s100 0mlGZG2jfW6aU0YZ=51??3
+R7
+31
+R17
+!i10b 1
+R18
+R30
+R31
+!i113 1
+R12
+R13
+Einstr_memory
+Z32 w1716326428
+R2
+R3
+R4
+R0
+Z33 8C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/instr_memory.vhd
+Z34 FC:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/instr_memory.vhd
+l0
+L9
+VR8E>HRFXb5RlKk5QSdgZY3
+!s100 Pl[:4BG=1>g`^ja]B]znn0
+R7
+31
+R17
+!i10b 1
+R18
+Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/instr_memory.vhd|
+Z36 !s107 C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/instr_memory.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 12 instr_memory 0 22 R8E>HRFXb5RlKk5QSdgZY3
+l83
+L27
+VbZ5D9;EP>G0K9L>A9Qg<A3
+!s100 zkW5H5b1iTg>=S:alEWSP2
+R7
+31
+R17
+!i10b 1
+R18
+R35
+R36
+!i113 1
+R12
+R13
+Elm
+Z37 w1716679358
+R2
+R3
+R4
+R0
+Z38 8C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/LM.vhd
+Z39 FC:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/LM.vhd
+l0
+L6
+V2;:G9]nng89SIj13czNbE2
+!s100 A8e?EMFONLidOzD5D3Jb;2
+R7
+31
+R8
+!i10b 1
+R9
+Z40 !s90 -reportprogress|300|-93|-work|work|C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/LM.vhd|
+Z41 !s107 C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/LM.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 2 lm 0 22 2;:G9]nng89SIj13czNbE2
+l28
+L16
+V?O`Uc91[W13[2f?@I0?Ij3
+!s100 87LbHXTJRookTLOHKFQd21
+R7
+31
+R8
+!i10b 1
+R9
+R40
+R41
+!i113 1
+R12
+R13
+Epc_unit
+Z42 w1716490985
+R21
+R2
+R3
+R4
+R0
+Z43 8C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/pc_unit.vhd
+Z44 FC:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/pc_unit.vhd
+l0
+L13
+Vj4gbgl^bGD>S7;8B?WIOT0
+!s100 cSU]cQj0]0MmTM`2@^I[E1
+R7
+31
+R8
+!i10b 1
+R9
+Z45 !s90 -reportprogress|300|-93|-work|work|C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/pc_unit.vhd|
+Z46 !s107 C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/pc_unit.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R21
+R2
+R3
+R4
+DEx4 work 7 pc_unit 0 22 j4gbgl^bGD>S7;8B?WIOT0
+l26
+L22
+V?bU<>naKWFOa3C7f61efl0
+!s100 :G=3RdF03YKY5`^1izV?V0
+R7
+31
+R8
+!i10b 1
+R9
+R45
+R46
+!i113 1
+R12
+R13
+Ereg_file
+Z47 w1716808553
+R2
+R3
+R4
+R0
+Z48 8C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/reg_file.vhd
+Z49 FC:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/reg_file.vhd
+l0
+L5
+VCP5cJDDd_9;ac:K7DjaYN1
+!s100 jPU@ilgbL3J`aiR8I]M@32
+R7
+31
+R8
+!i10b 1
+R9
+Z50 !s90 -reportprogress|300|-93|-work|work|C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/reg_file.vhd|
+Z51 !s107 C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/reg_file.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 8 reg_file 0 22 CP5cJDDd_9;ac:K7DjaYN1
+l70
+L31
+Vg:kXLFlOKNF[F5aL45HLf0
+!s100 `M?Z37:CMiG<i=I7:hN6A2
+R7
+31
+R8
+!i10b 1
+R9
+R50
+R51
+!i113 1
+R12
+R13
+Esm
+Z52 w1716807561
+R2
+R3
+R4
+R0
+Z53 8C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/SM.vhd
+Z54 FC:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/SM.vhd
+l0
+L6
+Ve>0JEg_74:][WVlY9;UQ`0
+!s100 3k?IQde9T;=iFUfZ^9RMT0
+R7
+31
+R8
+!i10b 1
+R9
+Z55 !s90 -reportprogress|300|-93|-work|work|C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/SM.vhd|
+Z56 !s107 C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/SM.vhd|
+!i113 1
+R12
+R13
+Abehav
+R2
+R3
+R4
+DEx4 work 2 sm 0 22 e>0JEg_74:][WVlY9;UQ`0
+l25
+L21
+V8`bZ52;]bE@MNLXSBkRR61
+!s100 ]0A5MHBVn3XUQ5DDa4EO53
+R7
+31
+R8
+!i10b 1
+R9
+R55
+R56
+!i113 1
+R12
+R13
+Etop_level
+Z57 w1716807783
+R21
+R3
+R4
+R0
+Z58 8C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/top_level.vhd
+Z59 FC:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/top_level.vhd
+l0
+L9
+VBBgKeOYC>hBHPz>g9lEa91
+!s100 h8z`5YM^Vlm1[hzEkFl^k0
+R7
+31
+R8
+!i10b 1
+R9
+Z60 !s90 -reportprogress|300|-93|-work|work|C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/top_level.vhd|
+Z61 !s107 C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/top_level.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R21
+R3
+R4
+DEx4 work 9 top_level 0 22 BBgKeOYC>hBHPz>g9lEa91
+l151
+L19
+VLaFQjGOG>0z29jj>?1E;B3
+!s100 kg]JUbJWEX;An4?X7hk>=2
+R7
+31
+R8
+!i10b 1
+R9
+R60
+R61
+!i113 1
+R12
+R13
+Etop_level_vhd_tst
+Z62 w1716558528
+R3
+R4
+R0
+Z63 8C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/simulation/modelsim/top_level.vht
+Z64 FC:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/simulation/modelsim/top_level.vht
+l0
+L7
+VLF6h45J@T:DEgIFYYkOQR2
+!s100 0E8]bgWCA_nWRf3fo7>6Q0
+R7
+31
+R8
+!i10b 1
+R9
+Z65 !s90 -reportprogress|300|-93|-work|work|C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/simulation/modelsim/top_level.vht|
+Z66 !s107 C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/simulation/modelsim/top_level.vht|
+!i113 1
+R12
+R13
+Atop_level_arch
+R3
+R4
+DEx4 work 17 top_level_vhd_tst 0 22 LF6h45J@T:DEgIFYYkOQR2
+l20
+L9
+VX]KCO_DihOY95cfAjf2R;1
+!s100 ?VDDC8AUZkA1=bT6YbQ7D0
+R7
+31
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13

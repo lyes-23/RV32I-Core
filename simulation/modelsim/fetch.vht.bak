@@ -1,0 +1,47 @@
+
+
+LIBRARY ieee;                                               
+USE ieee.std_logic_1164.all;                                
+
+ENTITY fetch_vhd_tst IS
+END fetch_vhd_tst;
+ARCHITECTURE fetch_arch OF fetch_vhd_tst IS
+-- constants                                                 
+-- signals                                                   
+SIGNAL clk : STD_LOGIC;
+SIGNAL op_code : STD_LOGIC_VECTOR(31 DOWNTO 0);
+COMPONENT fetch
+	PORT (
+	clk : IN STD_LOGIC;
+	op_code : OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
+	);
+END COMPONENT;
+BEGIN
+	i1 : fetch
+	PORT MAP (
+-- list connections between master ports and signals
+	clk => clk,
+	op_code => op_code
+	);
+init : PROCESS                                               
+-- variable declarations                                     
+BEGIN                                                        
+        -- code that executes only once                      
+WAIT;                                                       
+END PROCESS init;                                           
+always : PROCESS                                              
+-- optional sensitivity list                                  
+-- (        )                                                 
+-- variable declarations                                      
+BEGIN                                                         
+        
+        clk <= '0';
+		  
+			for i in 0 to 3 loop 
+				wait for 10 ns;
+				clk<= not I_clk;
+				
+				end loop;  
+WAIT;                                                        
+END PROCESS always;                                          
+END fetch_arch;

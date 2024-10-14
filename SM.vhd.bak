@@ -1,0 +1,43 @@
+library ieee; 
+use ieee.std_logic_1164.all; 
+use ieee.numeric_std.all; 
+
+
+entity SM is 
+port(
+rs2_data: in std_logic_vector(31 downto 0);
+funct3 :  in std_logic_vector(2 downto 0);
+res    :  in std_logic_vector(1 downto 0); 
+data   :  in std_logic_vector(31 downto 0);
+data_mem: out std_logic_vector(31 downto 0);
+
+
+);
+end SM; 
+
+
+
+architecture behav of SM is 
+
+signal m, m_h, m_b : std_logic_vector(3 downto 0); 
+
+begin 
+
+process(m, m_h, m_b,rs2_data,funct3,res,data)
+begin 
+
+if( res(1) = 0) then 
+	m_h <= x"C"; 
+	else 
+	m_h <= x"3"; 
+end if; 
+	
+if( unsigned(res) = 0) then 
+			m_b <= x"E"; 
+		elsif(unsigned(res) = 1) then 
+		m_b <= x"D"; 
+		elsif(unsigned(res) = 2) then 
+		m_b <= x"B"; 
+		elsif(unsigned(res) = 3) then 
+		m_b <= x"7";
+end if; 	

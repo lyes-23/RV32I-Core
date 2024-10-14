@@ -1,0 +1,215 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do RV32I_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/constants.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:25:46 on May 27,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/constants.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package constants
+# -- Compiling package body constants
+# -- Loading package constants
+# End time: 18:25:46 on May 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/instr_memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:25:46 on May 27,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/instr_memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity instr_memory
+# -- Compiling architecture Behavioral of instr_memory
+# ** Warning: C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/instr_memory.vhd(64): (vcom-1283) Cannot reference file "filePtr" inside pure function "memInit".
+# ** Warning: C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/instr_memory.vhd(66): (vcom-1283) Cannot reference file "filePtr" inside pure function "memInit".
+# ** Warning: C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/instr_memory.vhd(68): (vcom-1283) Cannot reference file "filePtr" inside pure function "memInit".
+# ** Warning: C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/instr_memory.vhd(74): (vcom-1283) Cannot reference file "filePtr" inside pure function "memInit".
+# End time: 18:25:46 on May 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# vcom -93 -work work {C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/decoder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:25:46 on May 27,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/decoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder
+# -- Compiling architecture behavioral of decoder
+# End time: 18:25:46 on May 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/reg_file.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:25:47 on May 27,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/reg_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity reg_file
+# -- Compiling architecture rtl of reg_file
+# End time: 18:25:47 on May 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/alu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:25:47 on May 27,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# End time: 18:25:47 on May 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/data_memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:25:47 on May 27,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/data_memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_memory
+# -- Compiling architecture behav of data_memory
+# End time: 18:25:47 on May 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/LM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:25:47 on May 27,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/LM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LM
+# -- Compiling architecture behavioral of LM
+# End time: 18:25:47 on May 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/SM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:25:47 on May 27,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/SM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SM
+# -- Compiling architecture behav of SM
+# End time: 18:25:47 on May 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/pc_unit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:25:47 on May 27,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/pc_unit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constants
+# -- Compiling entity pc_unit
+# -- Compiling architecture behavioral of pc_unit
+# End time: 18:25:47 on May 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/top_level.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:25:47 on May 27,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/top_level.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constants
+# -- Compiling entity top_level
+# -- Compiling architecture behavioral of top_level
+# End time: 18:25:47 on May 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/simulation/modelsim/top_level.vht}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:25:47 on May 27,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/TRETEC/Documents/Master_1/M1_project/RISC_V/myown_riscv/simulation/modelsim/top_level.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top_level_vhd_tst
+# -- Compiling architecture top_level_arch of top_level_vhd_tst
+# End time: 18:25:47 on May 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  top_level_vhd_tst
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" top_level_vhd_tst 
+# Start time: 18:25:48 on May 27,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.top_level_vhd_tst(top_level_arch)
+# Loading work.constants(body)
+# Loading work.top_level(behavioral)
+# Loading ieee.numeric_std(body)
+# Loading work.pc_unit(behavioral)
+# Loading work.instr_memory(behavioral)
+# Loading work.decoder(behavioral)
+# Loading work.reg_file(rtl)
+# Loading work.alu(behavioral)
+# Loading work.data_memory(behav)
+# Loading work.lm(behavioral)
+# Loading work.sm(behav)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: TRETEC  Hostname: DESKTOP-FH4MGCP  ProcessID: 21764
+#           Attempting to use alternate WLF file "./wlft4if4nn".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4if4nn
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_vhd_tst/i1/data_memory1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_vhd_tst/i1/ALU1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_vhd_tst/i1/instruction_memory
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /top_level_vhd_tst/i1/ALU1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 4  Instance: /top_level_vhd_tst/i1/data_memory1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 65 ns  Iteration: 5  Instance: /top_level_vhd_tst/i1/register_file
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 65 ns  Iteration: 5  Instance: /top_level_vhd_tst/i1/register_file
+add wave -position insertpoint  \
+sim:/top_level_vhd_tst/i1/program_counter/O_PC
+add wave -position insertpoint  \
+sim:/top_level_vhd_tst/i1/instruction_memory/instruction
+restart
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_vhd_tst/i1/data_memory1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_vhd_tst/i1/ALU1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_vhd_tst/i1/instruction_memory
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /top_level_vhd_tst/i1/ALU1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 4  Instance: /top_level_vhd_tst/i1/data_memory1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 65 ns  Iteration: 5  Instance: /top_level_vhd_tst/i1/register_file
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 65 ns  Iteration: 5  Instance: /top_level_vhd_tst/i1/register_file
+# End time: 18:43:54 on May 27,2024, Elapsed time: 0:18:06
+# Errors: 0, Warnings: 16
